@@ -53,8 +53,23 @@ def hello():
 #       return render_template("search.html")
 
 
-@app.route("/select", methods = ["GET", "POST"])
-def select():
+# @app.route("/select", methods = ["GET", "POST"])
+# def select():
+#     if request.method == "POST":
+#         where = request.form["Where"]
+#         what = request.form["What"]
+#         places = []
+
+#         with open('static/js/restaurants.json') as json_file:
+#             restaurants = json.loads(json_file.read())["restaurants"]
+#             for r in restaurants:
+#                 if r['Area'] == where and r['Cuisine'] == what:
+#                     places.append(r['Name'])
+#         return render_template("results.html", elements = places)
+#     return render_template("search.html")
+
+@app.route("/results", methods = ["GET", "POST"])
+def results():
     if request.method == "POST":
         where = request.form["Where"]
         what = request.form["What"]
@@ -66,10 +81,6 @@ def select():
                 if r['Area'] == where and r['Cuisine'] == what:
                     places.append(r['Name'])
         return render_template("results.html", elements = places)
-    return render_template("search.html")
-
-@app.route("/results")
-def results():
     return render_template("results.html")
 
 @app.errorhandler(404)
