@@ -3,11 +3,14 @@ import requests
 import gdata.spreadsheet.service
 import gdata.spreadsheet
 import gdata.service
+import gdata.spreadsheet.text_db
 import atom.service
 import getopt
 import sys
 import re, os, os.path
 import string
+import socket
+
 
 app = Flask(__name__)
 app.config["DEBUG"] = True
@@ -39,6 +42,41 @@ def hello():
 # 	else:
 # 		return render_template("search.html")
 
+@app.route("/showall")
+def showall():
+	gd_client = gdata.spreadsheet.service.SpreadsheetsService()
+	gd_client.email = "chan.andreakw@gmail.com"
+	gd_client.password = "imgoodthanks"
+	gd_client.source = "eatApp"
+	gd_client.ProgrammaticLogin()
+
+	key = "0At7RkuwrpNM0dDNfNGd5STk2TXQ1aHZ2elNqUFVIM0E"
+	spreadsheet_id = key
+	wksht_id = "0"
+	worksheet_id = wksht_id
+
+	q = gdata.spreadsheet.service.DocumentQuery()
+	#q.orderby = "column:Name"
+	#q.reverse = "true"
+
+	q['title'] = "The List"
+	try:
+		feed = gd_client.GetSpreadsheetsFeed(query=q)
+	except gdata.service.RequestError, e: 
+		logging.error('Spreadsheet gdata.service.RequestError: ' + str(e))
+		return False
+	except socket.sslerror, e:
+		logging.error('Spreadsheet socket.sslerror ' + str(e))
+		return False
+	spreadsheet = gdata.spreadsheet(spreadsheet_id, worksheet_id)
+	for row in spreadsheet:
+  		print row["Name"]
+	for row_entry in feed.entry:
+		print row_entry
+		record = gdata.spreadsheet.text_db.Record(row_entry=row_entry({"id":"name"}))
+		print record
+		print "%s" % (record.content["Name"])
+
 @app.route("/select", methods = ["GET", "POST"])
 def select():
 	if request.method == "POST":
@@ -48,30 +86,13 @@ def select():
 		query_string = "&tq=select%20A%20where%20B%20contains%20" + where + "%20and%20C%20contains%20" + what
 		#wholeQuery = url + query_string
 		#response_dict = requests.get(wholeQuery).json()
-		
-		gd_client = gdata.spreadsheet.service.SpreadsheetsService()
-		gd_client.email = "chan.andreakw@gmail.com"
-		gd_client.password = "imgoodthanks"
-		gd_client.source = "eatApp"
-		gd_client.ProgrammaticLogin()
-
-		key = "0At7RkuwrpNM0dDNfNGd5STk2TXQ1aHZ2elNqUFVIM0E"
-		wksht_id = "0"
-
-		q = gdata.spreadsheet.service.ListQuery()
-		#q.orderby = "column:Name"
-		#q.reverse = "true"
-
-		feed = gd_client.GetListFeed(key, wksht_id, query=q)
-
-		for row_entry in feed.entry:
-			record = gdata.spreadsheet.text_db.Record(row_entry=row_entry)
-		print "%s" % (record.content["Name"])
-
 		return whole_Query
 	else:
 		return render_template("search.html")
 
+@app.route("/results")
+def results():
+	return render_template("results.html")
 
 @app.errorhandler(404)
 def page_not_found(error):
