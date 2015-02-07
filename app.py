@@ -2,6 +2,12 @@ from flask import Flask, jsonify, render_template, url_for, request
 import requests
 import sys
 import json
+#<<<<<<< Updated upstream
+#=======
+#import oauth2
+import urllib
+import urllib2
+#>>>>>>> Stashed changes
 import pprint
 
 app = Flask(__name__)
