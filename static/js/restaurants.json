@@ -1,0 +1,1309 @@
+{
+  "restaurants":[
+    {
+      "Name":"Alphabet City Beer Co.",
+      "Area":"Alphabet City",
+      "Cuisine":"Bar (Beer)"
+    },
+    {
+      "Name":"Ducks Eatery",
+      "Area":"East Village",
+      "Cuisine":"New American/Asian"
+    },
+    {
+      "Name":"Bobwhite Counter",
+      "Area":"Alphabet City",
+      "Cuisine":"Southern"
+    },
+    {
+      "Name":"Butcher Bar",
+      "Area":"Astoria",
+      "Cuisine":"Barbecue"
+    },
+    {
+      "Name":"Sorriso Italian Pork Store",
+      "Area":"Astoria",
+      "Cuisine":"Italian"
+    },
+    {
+      "Name":"Battery Place Market",
+      "Area":"Battery Place",
+      "Cuisine":"Market/eatery"
+    },
+    {
+      "Name":"Do or Dine",
+      "Area":"Bed-Stuy",
+      "Cuisine":"New American"
+    },
+    {
+      "Name":"Brooklyn Sandwich Society",
+      "Area":"Bed-Stuy",
+      "Cuisine":"New American"
+    },
+    {
+      "Name":"Alice's Arbor",
+      "Area":"Bed-Stuy",
+      "Cuisine":"New American"
+    },
+    {
+      "Name":"Rucola",
+      "Area":"Boerum Hill",
+      "Cuisine":"Italian"
+    },
+    {
+      "Name":"Mile End Deli",
+      "Area":"Boerum Hill",
+      "Cuisine":"Deli"
+    },
+    {
+      "Name":"Bedouin Tent",
+      "Area":"Boerum Hill",
+      "Cuisine":"Middle Eastern"
+    },
+    {
+      "Name":"Ganso",
+      "Area":"Boreum Hill",
+      "Cuisine":"Japanese"
+    },
+    {
+      "Name":"Mile End Sandwich",
+      "Area":"Bowery",
+      "Cuisine":"NoHo"
+    },
+    {
+      "Name":"La Morada",
+      "Area":"Bronx",
+      "Cuisine":"Mexican"
+    },
+    {
+      "Name":"Colonie",
+      "Area":"Brooklyn Heights",
+      "Cuisine":"New American"
+    },
+    {
+      "Name":"Iris Cafe",
+      "Area":"Brooklyn Heights",
+      "Cuisine":"New American"
+    },
+    {
+      "Name":"Roberta's",
+      "Area":"Bushwick",
+      "Cuisine":"Italian"
+    },
+    {
+      "Name":"Arancini Brothers",
+      "Area":"Bushwick",
+      "Cuisine":"Italian"
+    },
+    {
+      "Name":"Arepera Guacuco",
+      "Area":"Bushwick",
+      "Cuisine":"Venezuelan"
+    },
+    {
+      "Name":"Blanca",
+      "Area":"Bushwick",
+      "Cuisine":"New American"
+    },
+    {
+      "Name":"Buttermilk Channel",
+      "Area":"Carroll Gardens",
+      "Cuisine":"Southern"
+    },
+    {
+      "Name":"Other Half Brewing",
+      "Area":"Carroll Gardens",
+      "Cuisine":"Brewery"
+    },
+    {
+      "Name":"Lucali",
+      "Area":"Carroll Gardens",
+      "Cuisine":"Italian"
+    },
+    {
+      "Name":"Ferdinando's Foccaceria",
+      "Area":"Carroll Gardens",
+      "Cuisine":"Italian"
+    },
+    {
+      "Name":"Tipsy Parson",
+      "Area":"Chelsea",
+      "Cuisine":"New American/Southern"
+    },
+    {
+      "Name":"Foragers City Table",
+      "Area":"Chelsea",
+      "Cuisine":"New American"
+    },
+    {
+      "Name":"Delaney Barbecue Smokeline",
+      "Area":"Chelsea",
+      "Cuisine":"Barbecue"
+    },
+    {
+      "Name":"Izakaya Ten",
+      "Area":"Chelsea",
+      "Cuisine":"Japanese"
+    },
+    {
+      "Name":"Coppelia",
+      "Area":"Chelsea",
+      "Cuisine":"Latin"
+    },
+    {
+      "Name":"Cafeteria",
+      "Area":"Chelsea",
+      "Cuisine":"New American"
+    },
+    {
+      "Name":"Trestle on Tenth",
+      "Area":"Chelsea",
+      "Cuisine":"New American"
+    },
+    {
+      "Name":"Cull and Pistol",
+      "Area":"Chelsea",
+      "Cuisine":"Seafood"
+    },
+    {
+      "Name":"Toro",
+      "Area":"Chelsea",
+      "Cuisine":"Spanish"
+    },
+    {
+      "Name":"Tia Pol",
+      "Area":"Chelsea",
+      "Cuisine":"Spanish"
+    },
+    {
+      "Name":"Txikito",
+      "Area":"Chelsea",
+      "Cuisine":"Spanish"
+    },
+    {
+      "Name":"The Commons Chelsea",
+      "Area":"Chelsea",
+      "Cuisine":"Cafe/eatery"
+    },
+    {
+      "Name":"Co.",
+      "Area":"Chelsea",
+      "Cuisine":"Italian"
+    },
+    {
+      "Name":"Rocket Pig",
+      "Area":"Chelsea",
+      "Cuisine":"Sandwich"
+    },
+    {
+      "Name":"El Quinto Pino",
+      "Area":"Chelsea",
+      "Cuisine":"Spanish"
+    },
+    {
+      "Name":"Socorrat Paella Bar",
+      "Area":"Chelsea",
+      "Cuisine":"Spanish"
+    },
+    {
+      "Name":"La Bergamote",
+      "Area":"Chelsea/Hell's Kitchen",
+      "Cuisine":"Bakery"
+    },
+    {
+      "Name":"Tasty Dumpling",
+      "Area":"Chinatown",
+      "Cuisine":"Chinese"
+    },
+    {
+      "Name":"Prosperity Dumpling",
+      "Area":"Chinatown",
+      "Cuisine":"Chinese"
+    },
+    {
+      "Name":"212 Grand Food Corp",
+      "Area":"Chinatown",
+      "Cuisine":"Chinese"
+    },
+    {
+      "Name":"Sun Hing Lunch Co.",
+      "Area":"Chinatown",
+      "Cuisine":"Chinese"
+    },
+    {
+      "Name":"Yaya Tea Garden",
+      "Area":"Chinatown",
+      "Cuisine":"Pan Asian"
+    },
+    {
+      "Name":"Locanda Vini & Olii",
+      "Area":"Clinton Hill",
+      "Cuisine":"Italian"
+    },
+    {
+      "Name":"Marietta",
+      "Area":"Clinton Hill",
+      "Cuisine":"New American/Southern"
+    },
+    {
+      "Name":"La Vara",
+      "Area":"Cobble Hill",
+      "Cuisine":"Spanish"
+    },
+    {
+      "Name":"Jarro XIV",
+      "Area":"Cobble Hill",
+      "Cuisine":"Spanish"
+    },
+    {
+      "Name":"Ted and Honey",
+      "Area":"Cobble Hill",
+      "Cuisine":"Cafe"
+    },
+    {
+      "Name":"Pok Pok NY",
+      "Area":"Cobble Hill",
+      "Cuisine":"Thai"
+    },
+    {
+      "Name":"Vinegar Hill House",
+      "Area":"Dumbo",
+      "Cuisine":"New American"
+    },
+    {
+      "Name":"East Harbor Seafood",
+      "Area":"Dyker Heights",
+      "Cuisine":"Cantonese"
+    },
+    {
+      "Name":"DBGB Kitchen and Bar",
+      "Area":"East Village",
+      "Cuisine":"French"
+    },
+    {
+      "Name":"Hearth",
+      "Area":"East Village",
+      "Cuisine":"Italian/American"
+    },
+    {
+      "Name":"Kyo Ya",
+      "Area":"East Village",
+      "Cuisine":"Japanese"
+    },
+    {
+      "Name":"Momofuku Noodle Bar",
+      "Area":"East Village",
+      "Cuisine":"Japanese/Asian"
+    },
+    {
+      "Name":"Graffiti",
+      "Area":"East Village",
+      "Cuisine":"Asian"
+    },
+    {
+      "Name":"Bianca",
+      "Area":"East Village",
+      "Cuisine":"Italian"
+    },
+    {
+      "Name":"Motorino",
+      "Area":"East Village",
+      "Cuisine":"Italian"
+    },
+    {
+      "Name":"Yakitori Taisho",
+      "Area":"East Village",
+      "Cuisine":"Japanese"
+    },
+    {
+      "Name":"Prune",
+      "Area":"East Village",
+      "Cuisine":"New American"
+    },
+    {
+      "Name":"Northern Spy Food Co.",
+      "Area":"East Village",
+      "Cuisine":"New American"
+    },
+    {
+      "Name":"Jeepney",
+      "Area":"East Village",
+      "Cuisine":"Philipino"
+    },
+    {
+      "Name":"Exchange Alley",
+      "Area":"East Village",
+      "Cuisine":"Southern"
+    },
+    {
+      "Name":"Nai",
+      "Area":"East Village",
+      "Cuisine":"Spanish"
+    },
+    {
+      "Name":"Jewel Bako",
+      "Area":"East Village",
+      "Cuisine":"Japanese"
+    },
+    {
+      "Name":"Degustation",
+      "Area":"East Village",
+      "Cuisine":"Spanish"
+    },
+    {
+      "Name":"Abraco",
+      "Area":"East Village",
+      "Cuisine":"Cafe"
+    },
+    {
+      "Name":"Dessert Club Chikalicious",
+      "Area":"East Village",
+      "Cuisine":"Dessert"
+    },
+    {
+      "Name":"Sundaes and Cones",
+      "Area":"East Village",
+      "Cuisine":"Dessert"
+    },
+    {
+      "Name":"Jane's Sweet Buns",
+      "Area":"East Village",
+      "Cuisine":"Dessert"
+    },
+    {
+      "Name":"Porchetta",
+      "Area":"East Village",
+      "Cuisine":"Italian"
+    },
+    {
+      "Name":"Porsena",
+      "Area":"East Village",
+      "Cuisine":"Italian"
+    },
+    {
+      "Name":"Minca",
+      "Area":"East Village",
+      "Cuisine":"Japanese"
+    },
+    {
+      "Name":"Village Yokosho",
+      "Area":"East Village",
+      "Cuisine":"Japanese"
+    },
+    {
+      "Name":"Prima",
+      "Area":"East Village",
+      "Cuisine":"Seafood"
+    },
+    {
+      "Name":"Stage Restaurant",
+      "Area":"East Village",
+      "Cuisine":"Ukrainian/Polish"
+    },
+    {
+      "Name":"Caracas Arepa Bar",
+      "Area":"East Village",
+      "Cuisine":"Venezuelan"
+    },
+    {
+      "Name":"Nicky's Vietnamese Sandwich",
+      "Area":"East Village",
+      "Cuisine":"Vietnamese"
+    },
+    {
+      "Name":"Terroir",
+      "Area":"East Village/TriBeCa/Murray Hill",
+      "Cuisine":"Wine Bar"
+    },
+    {
+      "Name":"Ciano",
+      "Area":"Flatiron",
+      "Cuisine":"Italian"
+    },
+    {
+      "Name":"The Breslin",
+      "Area":"Flatiron",
+      "Cuisine":"Gastropub"
+    },
+    {
+      "Name":"Basta Pasta",
+      "Area":"Flatiron",
+      "Cuisine":"Italian"
+    },
+    {
+      "Name":"Eleven Madison Park",
+      "Area":"Flatiron",
+      "Cuisine":"New American"
+    },
+    {
+      "Name":"Gramercy Tavern",
+      "Area":"Flatiron",
+      "Cuisine":"New American"
+    },
+    {
+      "Name":"Hill Country",
+      "Area":"Flatiron",
+      "Cuisine":"Barbecue"
+    },
+    {
+      "Name":"Biang!",
+      "Area":"Flushing",
+      "Cuisine":"Chinese"
+    },
+    {
+      "Name":"Daheen Wang Mandoo",
+      "Area":"Flushing",
+      "Cuisine":"Korean"
+    },
+    {
+      "Name":"Four and Twenty Blackbirds",
+      "Area":"Gowanus",
+      "Cuisine":"Dessert"
+    },
+    {
+      "Name":"Littleneck",
+      "Area":"Gowanus",
+      "Cuisine":"Seafood"
+    },
+    {
+      "Name":"Maialino",
+      "Area":"Gramercy",
+      "Cuisine":"Italian"
+    },
+    {
+      "Name":"Huckleberry Eats",
+      "Area":"Greenpoint",
+      "Cuisine":"New American"
+    },
+    {
+      "Name":"Torst",
+      "Area":"Greenpoint",
+      "Cuisine":"Bar (Beer)/New American"
+    },
+    {
+      "Name":"Minetta Tavern",
+      "Area":"Greenwich Village",
+      "Cuisine":"American"
+    },
+    {
+      "Name":"Whitehall",
+      "Area":"Greenwich Village",
+      "Cuisine":"British"
+    },
+    {
+      "Name":"Sel et Gras",
+      "Area":"Greenwich Village",
+      "Cuisine":"French"
+    },
+    {
+      "Name":"Otto",
+      "Area":"Greenwich Village",
+      "Cuisine":"Italian"
+    },
+    {
+      "Name":"Corkbuzz",
+      "Area":"Greenwich Village",
+      "Cuisine":"Wine Bar"
+    },
+    {
+      "Name":"Union Square Cafe",
+      "Area":"Greenwich Village",
+      "Cuisine":"New American"
+    },
+    {
+      "Name":"Babbo",
+      "Area":"Greenwich Village",
+      "Cuisine":"Italian"
+    },
+    {
+      "Name":"Sticky's Finger Joint",
+      "Area":"Greenwich Village",
+      "Cuisine":"American"
+    },
+    {
+      "Name":"Num Pang",
+      "Area":"Greenwich Village",
+      "Cuisine":"Cambodian"
+    },
+    {
+      "Name":"Charles' Country Pan Fried Chicken",
+      "Area":"Harlem",
+      "Cuisine":"Soul Food"
+    },
+    {
+      "Name":"Red Rooster",
+      "Area":"Harlem",
+      "Cuisine":"New American/Soul Food"
+    },
+    {
+      "Name":"Amy Ruth's",
+      "Area":"Harlem",
+      "Cuisine":"Soul Food"
+    },
+    {
+      "Name":"Sylvia's",
+      "Area":"Harlem",
+      "Cuisine":"Soul Food"
+    },
+    {
+      "Name":"Sullivan Street Bakery",
+      "Area":"Hell's Kitchen",
+      "Cuisine":"Bakery"
+    },
+    {
+      "Name":"Mission Chinese",
+      "Area":"LES",
+      "Cuisine":"Chinese Fusion"
+    },
+    {
+      "Name":"DiPalo",
+      "Area":"Little Italy",
+      "Cuisine":"Italian"
+    },
+    {
+      "Name":"The Burger Garage",
+      "Area":"Long Island City",
+      "Cuisine":"Burgers"
+    },
+    {
+      "Name":"Stanton Social",
+      "Area":"Lower East Side",
+      "Cuisine":"New American/French"
+    },
+    {
+      "Name":"The Fat Radish",
+      "Area":"Lower East Side",
+      "Cuisine":"British"
+    },
+    {
+      "Name":"L'Apicio",
+      "Area":"Lower East Side",
+      "Cuisine":"Italian"
+    },
+    {
+      "Name":"Skal",
+      "Area":"Lower East Side",
+      "Cuisine":"Scandinavian"
+    },
+    {
+      "Name":"Pig and Khao",
+      "Area":"Lower East Side",
+      "Cuisine":"Philipino"
+    },
+    {
+      "Name":"Les Sweet Chick",
+      "Area":"Lower East Side",
+      "Cuisine":"Chicken and Waffles"
+    },
+    {
+      "Name":"Yunnan Kitchen",
+      "Area":"Lower East Side",
+      "Cuisine":"Chinese"
+    },
+    {
+      "Name":"Sugar Sweet Sunshine",
+      "Area":"Lower East Side",
+      "Cuisine":"Dessert"
+    },
+    {
+      "Name":"Butter and Scotch",
+      "Area":"Lower East Side",
+      "Cuisine":"Dessert"
+    },
+    {
+      "Name":"Souvlaki GR",
+      "Area":"Lower East Side",
+      "Cuisine":"Greek"
+    },
+    {
+      "Name":"Pulino's",
+      "Area":"Lower East Side",
+      "Cuisine":"Italian"
+    },
+    {
+      "Name":"Family Recipe",
+      "Area":"Lower East Side",
+      "Cuisine":"Japanese"
+    },
+    {
+      "Name":"Birds and Bubbles",
+      "Area":"Lower East Side",
+      "Cuisine":"Southern"
+    },
+    {
+      "Name":"Ma Peche",
+      "Area":"Midtown",
+      "Cuisine":"French/Asian Fusion"
+    },
+    {
+      "Name":"Don Antonio",
+      "Area":"Midtown",
+      "Cuisine":"Italian"
+    },
+    {
+      "Name":"Petrossian",
+      "Area":"Midtown",
+      "Cuisine":"Bakery"
+    },
+    {
+      "Name":"Culture Espresso Bar",
+      "Area":"Midtown",
+      "Cuisine":"Cafe/Italian"
+    },
+    {
+      "Name":"Cafe China",
+      "Area":"Midtown East",
+      "Cuisine":"Chinese"
+    },
+    {
+      "Name":"Le Relais de Venise",
+      "Area":"Midtown East",
+      "Cuisine":"French"
+    },
+    {
+      "Name":"Sip Sak",
+      "Area":"Midtown East",
+      "Cuisine":"Turkish"
+    },
+    {
+      "Name":"Alfama",
+      "Area":"Midtown East",
+      "Cuisine":"Bakery (Portugese)"
+    },
+    {
+      "Name":"Hide-Chan",
+      "Area":"Midtown East",
+      "Cuisine":"Japanese"
+    },
+    {
+      "Name":"No.7 Sub",
+      "Area":"Midtown East/Midtown",
+      "Cuisine":"Sandwiches"
+    },
+    {
+      "Name":"Yakitori Toto",
+      "Area":"Midtown West",
+      "Cuisine":"Japanese"
+    },
+    {
+      "Name":"Ardesia",
+      "Area":"Midtown West",
+      "Cuisine":"Italian"
+    },
+    {
+      "Name":"Sake Car Hagi",
+      "Area":"Midtown West",
+      "Cuisine":"Japanese"
+    },
+    {
+      "Name":"Cafe Frame",
+      "Area":"Midtown West",
+      "Cuisine":"Cafe/eatery"
+    },
+    {
+      "Name":"Sergimmo Salumeria",
+      "Area":"Midtown West",
+      "Cuisine":"Italian"
+    },
+    {
+      "Name":"Tabata Ramen",
+      "Area":"Midtown West",
+      "Cuisine":"Japanese"
+    },
+    {
+      "Name":"Lezzette",
+      "Area":"Midtown West",
+      "Cuisine":"Mediterranean"
+    },
+    {
+      "Name":"Totto Ramen",
+      "Area":"Midtown West",
+      "Cuisine":"Ramen"
+    },
+    {
+      "Name":"Bon Chon",
+      "Area":"Midtown West/East; FiDi; East Village",
+      "Cuisine":"Korean"
+    },
+    {
+      "Name":"Landmarc",
+      "Area":"Midtown West/TriBeCa",
+      "Cuisine":"New American/Italian"
+    },
+    {
+      "Name":"Sun Chan",
+      "Area":"Morningside Heights",
+      "Cuisine":"Japanese"
+    },
+    {
+      "Name":"Jin",
+      "Area":"Morningside Heights",
+      "Cuisine":"Ramen"
+    },
+    {
+      "Name":"Pisticci",
+      "Area":"Morningside Heights",
+      "Cuisine":"Italian"
+    },
+    {
+      "Name":"Carnitas El Atoradero",
+      "Area":"Mott Haven",
+      "Cuisine":"Mexican"
+    },
+    {
+      "Name":"Salvation Taco",
+      "Area":"Murray Hill",
+      "Cuisine":"Mexican"
+    },
+    {
+      "Name":"Il Buco Alimentari e Vineria",
+      "Area":"NoHo",
+      "Cuisine":"Italian"
+    },
+    {
+      "Name":"Peels",
+      "Area":"NoHo",
+      "Cuisine":"New American"
+    },
+    {
+      "Name":"Tartinery",
+      "Area":"NoLita",
+      "Cuisine":"French"
+    },
+    {
+      "Name":"Public",
+      "Area":"NoLita",
+      "Cuisine":"New American"
+    },
+    {
+      "Name":"Parm",
+      "Area":"NoLita",
+      "Cuisine":"Italian/American"
+    },
+    {
+      "Name":"Brook Vin",
+      "Area":"Park Slope",
+      "Cuisine":"Wine Bar"
+    },
+    {
+      "Name":"Franny's",
+      "Area":"Park Slope",
+      "Cuisine":"Italian/American"
+    },
+    {
+      "Name":"606 R&D",
+      "Area":"Prospect Heights",
+      "Cuisine":"New American"
+    },
+    {
+      "Name":"Barboncino",
+      "Area":"Prospect Heights",
+      "Cuisine":"Italian"
+    },
+    {
+      "Name":"Chuko",
+      "Area":"Prospect Heights",
+      "Cuisine":"Ramen"
+    },
+    {
+      "Name":"Fort Defiance",
+      "Area":"Red Hook",
+      "Cuisine":"New American"
+    },
+    {
+      "Name":"Court Street Grocers Hero Shop",
+      "Area":"Red Hook",
+      "Cuisine":"Sandwiches"
+    },
+    {
+      "Name":"Motorboat and the Big Banana",
+      "Area":"Rockaway Beach",
+      "Cuisine":"Summer/beach food"
+    },
+    {
+      "Name":"La Sirene",
+      "Area":"SoHo",
+      "Cuisine":"French"
+    },
+    {
+      "Name":"Osteria Morini",
+      "Area":"SoHo",
+      "Cuisine":"Italian"
+    },
+    {
+      "Name":"Boqueria",
+      "Area":"SoHo",
+      "Cuisine":"Spanish"
+    },
+    {
+      "Name":"The Room",
+      "Area":"SoHo",
+      "Cuisine":"Bar"
+    },
+    {
+      "Name":"Balthazar",
+      "Area":"SoHo",
+      "Cuisine":"French"
+    },
+    {
+      "Name":"Clinton Street Bakery Co.",
+      "Area":"SoHo",
+      "Cuisine":"New American"
+    },
+    {
+      "Name":"Dominique Ansel Bakery",
+      "Area":"SoHo",
+      "Cuisine":"Bakery"
+    },
+    {
+      "Name":"Ceci-Cela",
+      "Area":"SoHo",
+      "Cuisine":"Bakery"
+    },
+    {
+      "Name":"Bluebird Sky",
+      "Area":"SoHo",
+      "Cuisine":"New American"
+    },
+    {
+      "Name":"Jack's Wife Freda",
+      "Area":"SoHo",
+      "Cuisine":"South African/Jewish"
+    },
+    {
+      "Name":"Hundred Acres",
+      "Area":"SoHo",
+      "Cuisine":"Southern"
+    },
+    {
+      "Name":"Enoteca Maria",
+      "Area":"Staten Island",
+      "Cuisine":"Italian"
+    },
+    {
+      "Name":"Corton",
+      "Area":"TriBeCa",
+      "Cuisine":"French"
+    },
+    {
+      "Name":"Ward III",
+      "Area":"TriBeCa",
+      "Cuisine":"American/Lounge"
+    },
+    {
+      "Name":"Locanda Verde",
+      "Area":"TriBeCa",
+      "Cuisine":"New American/Italian"
+    },
+    {
+      "Name":"Ootoya",
+      "Area":"Union Square",
+      "Cuisine":"Japanese"
+    },
+    {
+      "Name":"Laut",
+      "Area":"Union Square",
+      "Cuisine":"Malaysian"
+    },
+    {
+      "Name":"Dos Toros",
+      "Area":"Union Square",
+      "Cuisine":"Mexican"
+    },
+    {
+      "Name":"Taboonette",
+      "Area":"Union Square",
+      "Cuisine":"Middle Eastern"
+    },
+    {
+      "Name":"Breads Bakery",
+      "Area":"Union Square",
+      "Cuisine":"Bakery"
+    },
+    {
+      "Name":"Cafe Sabarsky",
+      "Area":"Upper East Side",
+      "Cuisine":"Austrian"
+    },
+    {
+      "Name":"Jones Wood Foundry",
+      "Area":"Upper East Side",
+      "Cuisine":"British"
+    },
+    {
+      "Name":"Via Quadronno",
+      "Area":"Upper East Side",
+      "Cuisine":"Italian"
+    },
+    {
+      "Name":"Untitled",
+      "Area":"Upper East Side",
+      "Cuisine":"New American"
+    },
+    {
+      "Name":"Earl's Beer and Cheese",
+      "Area":"Upper East Side",
+      "Cuisine":"Beer"
+    },
+    {
+      "Name":"Yura on Madison",
+      "Area":"Upper East Side",
+      "Cuisine":"Dessert"
+    },
+    {
+      "Name":"Landmarc",
+      "Area":"Upper West Side",
+      "Cuisine":"Bistro (modern)"
+    },
+    {
+      "Name":"Salumeria Rosi",
+      "Area":"Upper West Side",
+      "Cuisine":"Italian"
+    },
+    {
+      "Name":"Sushi of Gari",
+      "Area":"Upper West Side",
+      "Cuisine":"Japanese"
+    },
+    {
+      "Name":"Celeste",
+      "Area":"Upper West Side",
+      "Cuisine":"Italian"
+    },
+    {
+      "Name":"Nonna (closed)",
+      "Area":"Upper West Side",
+      "Cuisine":"Italian"
+    },
+    {
+      "Name":"Jacob's Pickles",
+      "Area":"Upper West Side",
+      "Cuisine":"Southern"
+    },
+    {
+      "Name":"Gazala Palace",
+      "Area":"Upper West Side/Hell's Kitchen",
+      "Cuisine":"Middle Eastern"
+    },
+    {
+      "Name":"Le Gigot",
+      "Area":"West Village",
+      "Cuisine":"French"
+    },
+    {
+      "Name":"Corsino",
+      "Area":"West Village",
+      "Cuisine":"Italian"
+    },
+    {
+      "Name":"Scarpetta",
+      "Area":"West Village",
+      "Cuisine":"Italian"
+    },
+    {
+      "Name":"Gradisca",
+      "Area":"West Village",
+      "Cuisine":"Italian"
+    },
+    {
+      "Name":"Takashi",
+      "Area":"West Village",
+      "Cuisine":"Japanese"
+    },
+    {
+      "Name":"Chez Sardine",
+      "Area":"West Village",
+      "Cuisine":"New American"
+    },
+    {
+      "Name":"Jeffrey's Grocery",
+      "Area":"West Village",
+      "Cuisine":"New American"
+    },
+    {
+      "Name":"Pearl Oyster Bar",
+      "Area":"West Village",
+      "Cuisine":"Seafood"
+    },
+    {
+      "Name":"Commerce",
+      "Area":"West Village",
+      "Cuisine":"American Bistro"
+    },
+    {
+      "Name":"Fatty Crab",
+      "Area":"West Village",
+      "Cuisine":"Asian Fusion"
+    },
+    {
+      "Name":"Murray's Cheese Bar",
+      "Area":"West Village",
+      "Cuisine":"Cheese"
+    },
+    {
+      "Name":"Buvette",
+      "Area":"West Village",
+      "Cuisine":"French"
+    },
+    {
+      "Name":"The Spotted Pig",
+      "Area":"West Village",
+      "Cuisine":"Gastropub"
+    },
+    {
+      "Name":"Barbuto",
+      "Area":"West Village",
+      "Cuisine":"Italian"
+    },
+    {
+      "Name":"Perla",
+      "Area":"West Village",
+      "Cuisine":"Italian"
+    },
+    {
+      "Name":"The Marrow",
+      "Area":"West Village",
+      "Cuisine":"Italian/German"
+    },
+    {
+      "Name":"Hakata Tonton",
+      "Area":"West Village",
+      "Cuisine":"Japanese"
+    },
+    {
+      "Name":"Neta",
+      "Area":"West Village",
+      "Cuisine":"Japanese"
+    },
+    {
+      "Name":"Blue Ribbon Bakery Restaurant",
+      "Area":"West Village",
+      "Cuisine":"New American"
+    },
+    {
+      "Name":"Fatty Cue",
+      "Area":"West Village",
+      "Cuisine":"New American"
+    },
+    {
+      "Name":"Market Table",
+      "Area":"West Village",
+      "Cuisine":"New American"
+    },
+    {
+      "Name":"Mary's Fish Camp",
+      "Area":"West Village",
+      "Cuisine":"Seafood"
+    },
+    {
+      "Name":"Barraca",
+      "Area":"West Village",
+      "Cuisine":"Spanish"
+    },
+    {
+      "Name":"I Sodi",
+      "Area":"West Village",
+      "Cuisine":"Italian"
+    },
+    {
+      "Name":"Del Posto",
+      "Area":"West Village",
+      "Cuisine":"Italian"
+    },
+    {
+      "Name":"Landbrot Bakery",
+      "Area":"West Village",
+      "Cuisine":"Bakery"
+    },
+    {
+      "Name":"Patisserie Claude",
+      "Area":"West Village",
+      "Cuisine":"Bakery"
+    },
+    {
+      "Name":"Sweet Revenge",
+      "Area":"West Village",
+      "Cuisine":"Dessert"
+    },
+    {
+      "Name":"Victory Garden",
+      "Area":"West Village",
+      "Cuisine":"Dessert"
+    },
+    {
+      "Name":"Snack Taverna",
+      "Area":"West Village",
+      "Cuisine":"Greek/New American"
+    },
+    {
+      "Name":"Taim",
+      "Area":"West Village",
+      "Cuisine":"Israeli"
+    },
+    {
+      "Name":"Extra Virgin",
+      "Area":"West Village",
+      "Cuisine":"Italian"
+    },
+    {
+      "Name":"Gottino",
+      "Area":"West Village",
+      "Cuisine":"Italian"
+    },
+    {
+      "Name":"Lievito",
+      "Area":"West Village",
+      "Cuisine":"Italian"
+    },
+    {
+      "Name":"Rosemary's",
+      "Area":"West Village",
+      "Cuisine":"Italian"
+    },
+    {
+      "Name":"Keste",
+      "Area":"West Village",
+      "Cuisine":"Italian"
+    },
+    {
+      "Name":"Little Owl",
+      "Area":"West Village",
+      "Cuisine":"New American"
+    },
+    {
+      "Name":"Monument Lane",
+      "Area":"West Village",
+      "Cuisine":"New American"
+    },
+    {
+      "Name":"Pao",
+      "Area":"West Village",
+      "Cuisine":"Portugese"
+    },
+    {
+      "Name":"Better Being Underground",
+      "Area":"West Village",
+      "Cuisine":"Sandwich"
+    },
+    {
+      "Name":"Fish",
+      "Area":"West Village",
+      "Cuisine":"Seafood"
+    },
+    {
+      "Name":"Bosie Tea Parlor",
+      "Area":"West Village",
+      "Cuisine":"Tea"
+    },
+    {
+      "Name":"Anfora",
+      "Area":"West Village",
+      "Cuisine":"Wine Bar"
+    },
+    {
+      "Name":"Vin Sur Vingt",
+      "Area":"West Village",
+      "Cuisine":"Wine Bar"
+    },
+    {
+      "Name":"FLEX Mussels",
+      "Area":"West Village/UES",
+      "Cuisine":"Seafood"
+    },
+    {
+      "Name":"RedFarm",
+      "Area":"West Village/UWS",
+      "Cuisine":"Asian Fusion"
+    },
+    {
+      "Name":"Peter Luger Steakhouse",
+      "Area":"Williamsburg",
+      "Cuisine":"American"
+    },
+    {
+      "Name":"Marlow and Sons",
+      "Area":"Williamsburg",
+      "Cuisine":"New American"
+    },
+    {
+      "Name":"Aska",
+      "Area":"Williamsburg",
+      "Cuisine":"Scandinavian"
+    },
+    {
+      "Name":"St. Anselm",
+      "Area":"Williamsburg",
+      "Cuisine":"Steak"
+    },
+    {
+      "Name":"BrisketTown",
+      "Area":"Williamsburg",
+      "Cuisine":"Barbecue"
+    },
+    {
+      "Name":"Allswell",
+      "Area":"Williamsburg",
+      "Cuisine":"New American"
+    },
+    {
+      "Name":"Maison Premier",
+      "Area":"Williamsburg",
+      "Cuisine":"New American"
+    },
+    {
+      "Name":"Brooklyn Star",
+      "Area":"Williamsburg",
+      "Cuisine":"New American"
+    },
+    {
+      "Name":"No Name Bar",
+      "Area":"Williamsburg",
+      "Cuisine":"Asian"
+    },
+    {
+      "Name":"Fette Sau",
+      "Area":"Williamsburg",
+      "Cuisine":"Barbecue"
+    },
+    {
+      "Name":"Breukelen Bier Merchants",
+      "Area":"Williamsburg",
+      "Cuisine":"Beer"
+    },
+    {
+      "Name":"Ramen Yebisu",
+      "Area":"Williamsburg",
+      "Cuisine":"Japanese"
+    },
+    {
+      "Name":"Extra Fancy",
+      "Area":"Williamsburg",
+      "Cuisine":"New American"
+    },
+    {
+      "Name":"Pies N Thighs",
+      "Area":"Williamsburg",
+      "Cuisine":"New American"
+    },
+    {
+      "Name":"Saltie",
+      "Area":"Williamsburg",
+      "Cuisine":"Sandwich"
+    },
+    {
+      "Name":"Gwynnett Street (ugh closed now)",
+      "Area":"Williamsburg",
+      "Cuisine":"New American"
+    },
+    {
+      "Name":"Forcella",
+      "Area":"Williamsburg/East Village",
+      "Cuisine":"Italian"
+    },
+    {
+      "Name":"The Meatball Shop",
+      "Area":"Williamsburg/West Village/LES/UWS",
+      "Cuisine":"American"
+    }
+  ]
+}
