@@ -54,9 +54,6 @@ def select():
         what = request.form["What"]
         places = []
 
-        #with open(url_for('static', filename='js/restaurants.json')) as json_file:
-            #restaurants = json.reads(json_file.read())["restaurants"]
-
         with open('static/js/restaurants.json') as json_file:
             restaurants = json.loads(json_file.read())["restaurants"]
             for r in restaurants:
@@ -67,7 +64,7 @@ def select():
 
 @app.route("/results")
 def results():
-    render_template("results.html")
+    return render_template("results.html")
 
 @app.errorhandler(404)
 def page_not_found(error):
