@@ -1,27 +1,49 @@
 <!DOCTYPE html>
+<!--<link rel="stylesheet" href="css/foundation.css">-->
+<!-- hello -->
 <html lang = "en">
 	
 	<head>
 		<meta charset="utf-8">
-		<title>Search</title>
+                <title>Search</title>
+                <link href="../static/css/foundation.css" rel="stylesheet" type="text/css">
 	</head>
 
-	<body>
-
-		<h> hello! </h>
+        <body>
+        <div class="row">
+            <div class="large-12 large-centered columns">
+            </div>
+        </div>
+        <div class="row">
+            <div class="panel">
+                <div class="large-12 large-centered columns" align="center">
+                    <h1>Andrea's Restaurant Recommendation!</h1>
+                </div>
+            </div>
+        </div>
+ 
+            <!--<h> hello! </h>-->
 	
-	<form name = "Selection" action="/select" method="POST">
-		<select name =  "Where">
-			<option value = "West Village"> West Village </option>
-			<option value = "East Village"> East Village </option>
-		</select>
+            <form name = "Selection" action="/select" method="POST">
+                <link href="../static/css/foundation.css" rel="stylesheet" type="text/css">
+                <div class="row">
+                    <div class="large-4 large-centered columns">
+                        <select name =  "Where">
+			        <option value = "West Village"> West Village </option>
+			        <option value = "East Village"> East Village </option>
+		        </select>
 
-		<select name = "What">
-			<option value = "Japanese"> Japanese </option>
-			<option value = "Italian"> Italian </option>
-		</select>		
-		
-		<button type="submit"> Tell me what to eat! </button>
+		        <select name = "What">
+			        <option value = "Japanese"> Japanese </option>
+			        <option value = "Italian"> Italian </option>
+		        </select>		
+                        <div class="large-8 medium-8 large-centered columns">	
+                                <button type="submit"> Tell me what to eat! </button>
+                                <a href="#" class="medium success button">Random Success!!!</a><br/>
+                        </div>
+
+                    </div>
+                </div>    
 	</form>
 	
 	
