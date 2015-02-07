@@ -92,7 +92,8 @@ def select():
 
 @app.route("/results")
 def results():
-	return render_template("results.html")
+	nameList = ["Montmartre", "Jeffrey's Grocery", "I Sodi", "Buvette", "Jacob's Pickles"]
+	return render_template("results.html", nameList)
 
 @app.errorhandler(404)
 def page_not_found(error):
