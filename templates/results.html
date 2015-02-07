@@ -2,17 +2,17 @@
 
 <html lang = "en">
 
-	<head>
-		<meta charset="utf-8">
-		<title>Results</title>
-                <link href="../static/css/foundation.css" rel="stylesheet" type="text/css">
-                <script src="../foundation-5.5.1/js/vendor/jquery.js"></script>
-                <script src="../foundation-5.5.1/js/foundation/foundation.js"></script>
-                <script src="../foundation-5.5.1/js/foundation/foundation.interchange.js"></script>
+    <head>
+        <meta charset="utf-8">
+        <title>Results</title>
+        <link href="../static/css/foundation.css" rel="stylesheet" type="text/css">
+        <script src="../foundation-5.5.1/js/vendor/jquery.js"></script>
+        <script src="../foundation-5.5.1/js/foundation/foundation.js"></script>
+        <script src="../foundation-5.5.1/js/foundation/foundation.interchange.js"></script>
 
-        </head>
+    </head>
 
-	<body>
+    <body>
 
         <div class="row">
             <div class="panel">
@@ -21,31 +21,41 @@
                 </div>
             </div>
         </div>
- 
-            <!--<h> hello! </h>-->
-	
-            <form name = "Selection" action="/select" method="POST">
-                <link href="../static/css/foundation.css" rel="stylesheet" type="text/css">
-                <div class="row">
-                    <div class="panel">
-                        <!-- <div data-interchange="[ship_in_a_bottle.jpg, (default)], [ship_in_a_bottle.jpg, (large)]"></div> --> 
-                        <!--<img src="ship_in_a_bottle.jpg" />-->
-                        <div class="large-4 large-centered columns">
-                            <select name =  "Where">
-                                <option value = "Williamsburg"> Williamsburg </option>
-                            </select>
 
-                            <select name = "What">
-                                <option value = "Wine Bar"> Wine Bar </option>
-                            </select>		
-                            <div class="large-8 medium-8 large-centered columns">	
-                                <button type="submit"> Tell me where to eat! </button>
-                                <!--<a href="#" class="medium success button">Random Success!!!</a><br/>-->
-                            </div>
+        <!--<h> hello! </h>-->
+
+        <form name = "Selection" action="/select" method="POST">
+            <link href="../static/css/foundation.css" rel="stylesheet" type="text/css">
+            <div class="row">
+                <div class="panel">
+                    <!-- <div data-interchange="[ship_in_a_bottle.jpg, (default)], [ship_in_a_bottle.jpg, (large)]"></div> --> 
+                    <!--<img src="ship_in_a_bottle.jpg" />-->
+                    <div class="large-4 large-centered columns">
+                        <select name =  "Where">
+                            <option value = "Williamsburg"> Williamsburg </option>
+                        </select>
+
+                        <select name = "What">
+                            <option value = "Wine Bar"> Wine Bar </option>
+                        </select>		
+                        <div class="large-8 medium-8 large-centered columns">	
+                            <button type="submit"> Tell me where to eat! </button>
+                            <!--<a href="#" class="medium success button">Random Success!!!</a><br/>-->
                         </div>
                     </div>
-                </div>    
-            </form>
- 
-	<body>
+                </div>
+            </div>    
+        </form>
+        
+        <div class="row">
+            <div class="panel">
+                <ul>
+                    {% for name in nameList %}
+                    <li>{{name}}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+
+        <body>
 </html>
