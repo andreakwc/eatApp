@@ -73,7 +73,7 @@ def select():
 
 @app.route("/results")
 def results():
-    render_template("results.html")
+    return render_template("results.html")
 
 @app.errorhandler(404)
 def page_not_found(error):
