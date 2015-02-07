@@ -7,6 +7,10 @@
 		<meta charset="utf-8">
                 <title>Search</title>
                 <link href="../static/css/foundation.css" rel="stylesheet" type="text/css">
+                <script src="../foundation-5.5.1/js/vendor/jquery.js"></script>
+                <script src="../foundation-5.5.1/js/foundation/foundation.js"></script>
+                <script src="../foundation-5.5.1/js/foundation/foundation.interchange.js"></script>
+
 	</head>
 
         <body>
@@ -27,27 +31,30 @@
             <form name = "Selection" action="/select" method="POST">
                 <link href="../static/css/foundation.css" rel="stylesheet" type="text/css">
                 <div class="row">
-                    <div class="large-4 large-centered columns">
-                        <select name =  "Where">
-			        <option value = "West Village"> West Village </option>
-			        <option value = "East Village"> East Village </option>
-		        </select>
+                    <div class="panel">
+                        <div data-interchange="[ship_in_a_bottle.jpg, (default)], [ship_in_a_bottle.jpg, (large)]"></div> 
+                        <!--<img src="ship_in_a_bottle.jpg" />-->
+                        <div class="large-4 large-centered columns">
+                            <select name =  "Where">
+                                <option value = "West Village"> West Village </option>
+                                <option value = "East Village"> East Village </option>
+                            </select>
 
-		        <select name = "What">
-			        <option value = "Japanese"> Japanese </option>
-			        <option value = "Italian"> Italian </option>
-		        </select>		
-                        <div class="large-8 medium-8 large-centered columns">	
+                            <select name = "What">
+                                <option value = "Japanese"> Japanese </option>
+                                <option value = "Italian"> Italian </option>
+                            </select>		
+                            <div class="large-8 medium-8 large-centered columns">	
                                 <button type="submit"> Tell me what to eat! </button>
-                                <a href="#" class="medium success button">Random Success!!!</a><br/>
+                                <!--<a href="#" class="medium success button">Random Success!!!</a><br/>-->
+                            </div>
                         </div>
-
                     </div>
                 </div>    
-	</form>
-	
-	
-	
+            </form>
+            <div class="large-8 medium-8 large-centered columns">	
+                <a href="#" class="medium success button">Random Success!!!</a><br/>
+            </div>	
 
 	</body>
 
