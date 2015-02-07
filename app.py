@@ -6,7 +6,7 @@ app.config["DEBUG"] = True
 
 @app.route("/hello")
 def hello():
- 	return "Hello World!"
+ 	return "Hey There! Hello World!"
 
 #@app.route("/search/<search_query>")
 #def search(search_query):	
