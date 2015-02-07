@@ -2,15 +2,8 @@ from flask import Flask, jsonify, render_template, url_for, request
 import requests
 import sys
 import json
-<<<<<<< Updated upstream
-#<<<<<<< Updated upstream
-#=======
-=======
->>>>>>> Stashed changes
-#import oauth2
 import urllib
 import urllib2
-#>>>>>>> Stashed changes
 import pprint
 
 app = Flask(__name__)
@@ -80,9 +73,14 @@ def results():
 
         with open('static/js/restaurants.json') as json_file:
             restaurants = json.loads(json_file.read())["restaurants"]
-            for r in restaurants:
-                if r['Area'] == where and r['Cuisine'] == what:
+            if where == "Anywhere" or what == "Anything":
+                for r in restaurants:
                     places.append(r['Name'])
+            else:
+                for r in restaurants:
+                    if r['Area'] == where and r['Cuisine'] == what:
+                        places.append(r['Name'])
+
         return render_template("results.html", elements = places)
     return render_template("results.html")
 
