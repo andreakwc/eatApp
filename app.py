@@ -2,8 +2,11 @@ from flask import Flask, jsonify, render_template, url_for, request
 import requests
 import sys
 import json
+<<<<<<< Updated upstream
 #<<<<<<< Updated upstream
 #=======
+=======
+>>>>>>> Stashed changes
 #import oauth2
 import urllib
 import urllib2
