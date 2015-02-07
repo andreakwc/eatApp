@@ -34,6 +34,7 @@ def select():
 	else:
 		return render_template("search.html")
 
+
 @app.errorhandler(404)
 def page_not_found(error):
 	return "Sorry, this page was not found", 404
