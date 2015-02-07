@@ -74,14 +74,14 @@ def results():
 
         with open('static/js/restaurants.json') as json_file:
             restaurants = json.loads(json_file.read())["restaurants"]
-            if where == "Anywhere" and what == "Anything":
+            if where == "Anywhere!" and what == "Anything!":
                 for r in restaurants:
                     places.append(r['Name'])
-            elif where == "Anywhere" and what != "Anything":
+            elif where == "Anywhere!" and what != "Anything!":
                 for r in restaurants:
                     if r['Cuisine'] == what:
                         places.append(r['Name'])
-            elif what == "Anything" and where != "Anywhere":
+            elif what == "Anything!" and where != "Anywhere!":
                 for r in restaurants:
                     if r['Area'] == where:
                         places.append(r['Name'])
