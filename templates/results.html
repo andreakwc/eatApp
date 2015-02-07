@@ -9,6 +9,7 @@
         <script src="../foundation-5.5.1/js/vendor/jquery.js"></script>
         <script src="../foundation-5.5.1/js/foundation/foundation.js"></script>
         <script src="../foundation-5.5.1/js/foundation/foundation.interchange.js"></script>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/foundation.css') }}">
 
         <style>
             #map-canvas {
@@ -218,10 +219,12 @@
 
         <!--<div data-interchange="[../examples/interchange/default.html, (small)], [../examples/interchange/medium.html, (medium)], [../examples/interchange/large.html, (large)]">--> 
             <!--<body onload="initialize()">-->
-                <div id="map-canvas" style="width: 600px; height: 480px; position: relative; overflow: hidden; transform: translateZ(0px);"></div>
+            <div class="panel">
+                <div id="map-canvas" style="width: 600px; height: 480px; position: relative; overflow: hidden; transform: translateZ(0px); text-align: center;"></div>
                 <div>
                     <input id="address" type="textbox" value="New York, NY">
                     <input type="button" value="Encode" onclick="codeAddress()">
                 </div> 
+            </div>
     </body>
 </html>
