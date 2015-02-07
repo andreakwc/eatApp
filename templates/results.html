@@ -30,7 +30,7 @@
                     mapTypeId: google.maps.MapTypeId.ROADMAP
                 }
                 map = new google.maps.Map(mapCanvas, mapOptions)
-            
+                            
             }
 
             function codeAddress() {
@@ -57,7 +57,7 @@
         <div class="row">
             <div class="panel">
                 <div class="large-12 large-centered columns" align="center">
-                    <h1>Andrea's Restaurant Recommendation!</h1>
+                    <h1>Andrea's (& Sandra's) Restaurant Recommendation!</h1>
                 </div>
             </div>
         </div>
@@ -70,7 +70,7 @@
                 <div class="panel">
                     <div class="large-4 large-centered columns">
                         <select name =  "Where">
-                                <option value = "Anywhere"> Anywhere </option>
+                                <option value = "Anywhere!"> Anywhere! </option>
                                 <option value = "Alphabet City"> Alphabet City </option>
                                 <option value = "Astoria"> Astoria </option>
                                 <option value = "Battery Place"> Battery Place </option>
@@ -125,7 +125,7 @@
                         </select>
 
                         <select name = "What">
-                                <option value = "Anything"> Anything </option>
+                                <option value = "Anything!"> Anything! </option>
                                 <option value = "American"> American </option>
                                 <option value = "American Bistro"> American Bistro </option>
                                 <option value = "Asian"> Asian </option>
@@ -218,7 +218,7 @@
 
         <!--<div data-interchange="[../examples/interchange/default.html, (small)], [../examples/interchange/medium.html, (medium)], [../examples/interchange/large.html, (large)]">--> 
             <!--<body onload="initialize()">-->
-                <div id="map-canvas" style="width: 600px; height: 480px;" align="center"></div>
+                <div id="map-canvas" style="width: 600px; height: 480px; position: relative; overflow: hidden; transform: translateZ(0px);"></div>
                 <div>
                     <input id="address" type="textbox" value="New York, NY">
                     <input type="button" value="Encode" onclick="codeAddress()">
